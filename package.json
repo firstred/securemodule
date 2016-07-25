@@ -1,0 +1,24 @@
+{
+  "name": "securemodule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firstred/securemodule"
+  },
+  "keywords": [
+    "update"
+  ],
+  "author": "Michael Dekker",
+  "license": "WTFPL",
+  "homepage": "https://github.com/firstred/securemodule#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-compress": "^0.14.0"
+  }
+}

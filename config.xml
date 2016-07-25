@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>securemodule</name>
+	<displayName><![CDATA[Secure module]]></displayName>
+	<version><![CDATA[1.1.0]]></version>
+	<description><![CDATA[Secure module -- best practices]]></description>
+	<author><![CDATA[Michael Dekker]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>
