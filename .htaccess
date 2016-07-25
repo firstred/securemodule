@@ -1,4 +1,4 @@
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteRule "\.(?!(js|css|jpg|jpeg|png)$)" index.php?controller=404 [QSA,NC,L]
+    RewriteRule "\.(?!(js|css|jpg|jpeg|png)$)" ../../index.php?controller=404 [NC,L]
 </IfModule>
