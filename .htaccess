@@ -1,1 +1,4 @@
-RedirectMatch 404 "^[^.]+$|\.(?!(js|css|jpg|jpeg|png)$)([^.]+$)"
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule "\.(?!(js|css|jpg|jpeg|png)$)" index.php?controller=404 [QSA,NC,L]
+</IfModule>
